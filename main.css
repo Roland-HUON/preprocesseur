@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("../img/Header back.png");
+  background-size: cover;
+  color: linear-gradient(-45deg, rgba(96, 160, 216, 0.62), rgba(178, 210, 53, 0.62));
+  width: 1920px;
+  height: 1080px;
+}
+header nav {
+  height: 69px;
+  display: flex;
+  align-items: center;
+  gap: 123px;
+  padding: 40px 25px;
+}
+header nav img {
+  width: 200px;
+}
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  flex: 1 1 auto;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: "Poppins", sans serif;
+  font-weight: 300;
+  cursor: pointer;
+}
+header nav button {
+  border: none;
+  height: 39px;
+  width: 160px;
+  font-size: 15px;
+  font-family: "Poppins", sans serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: #B2D234;
+  border-radius: 9px;
+  background-color: #FFFFFF;
+}
+header .header-title {
+  font-family: "Poppins", sans serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+header .header-title .title {
+  display: flex;
+  flex-direction: column;
+}
+header .header-title .title h1 {
+  font-size: 126px;
+  font-weight: 400;
+}
+header .header-title .title h2 {
+  margin-left: 182.58px;
+  font-size: 54px;
+  font-weight: 400;
+  transform: rotate(-9deg);
+  margin-top: -25px;
+}
+
+main {
+  position: relative;
+  margin-top: -36px;
+  z-index: -1;
+}
+main .welcome {
+  background-image: url("../img/61842.png");
+  width: 1920px;
+  height: 752px;
+}
+main .welcome-conteneur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .welcome-conteneur .welcome-text {
+  margin-left: 300px;
+  margin-top: -180px;
+  font-family: "Poppins", sans serif;
+  padding-bottom: 40px;
+}
+main .welcome-conteneur .welcome-text h2 {
+  color: #B2D234;
+  font-size: 52px;
+  font-weight: 600;
+}
+main .welcome-conteneur .welcome-text p {
+  padding-bottom: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  width: 476px;
+  line-height: 24px;
+}
+main .welcome-conteneur img {
+  margin-left: 500px;
+  height: 983px;
+  width: auto;
+}
+main .accroche {
+  background-image: url(../img/ismael-trevino-NDyuR4Huig8-unsplash.png);
+  background-size: cover;
+  height: 809px;
+  width: 1920px;
+  position: relative;
+  z-index: 1;
+  color: #FFFFFF;
+}
+main .accroche .accroche-conteneur-haut {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 809px;
+}
+main .accroche .accroche-conteneur-haut .accroche-conteneur-bas {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #B2D234;
+  opacity: 0.85;
+  width: 632px;
+  height: 642px;
+}
+main .menu {
+  background-image: url(../img/pattern.png);
+}
+main .preparation {
+  background-image: url(../img/louis-hansel-MlPD-AzZYMg-unsplash.png);
+}
+main .form {
+  background-image: url(../img/61842.png);
+}
+
+footer {
+  background-color: #B2D234;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+  height: 290px;
+  width: 1920px;
+  color: #FFFFFF;
+  font-family: "Poppins", sans serif;
+}
+footer section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+footer section h3 {
+  font-size: 27px;
+  font-weight: 600;
+  line-height: normal;
+}
+footer section p {
+  line-height: 34px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+footer section p a {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,4 +1,178 @@
-@use 'abstract/variables' as *;
-body{
-    background-color: $very-dark-blue;
+@use 'Base/reset' as *;
+@use 'Base/typography' as *;
+@use 'Themes/themes' as *;
+@use 'Components/buttons' as *;
+header{
+    background-image: url('../img/Header\ back.png');
+    background-size: cover;
+    color:linear-gradient(-45deg, rgba(96,160,216, 0.62), rgba(178,210,53,0.62));
+    width: 1920px;
+    height: 1080px;
+    nav{
+        height: 69px;
+        display: flex;
+        align-items: center;
+        gap: 123px;
+        padding: 40px 25px;
+        img{
+            width: 200px;
+        }
+        ul{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            list-style: none;
+            gap: 50px;
+            flex: 1 1 auto;
+            li{
+                a{
+                    text-decoration: none;
+                    color: $white;
+                    font-size: 18px;
+                    font-family:$font;
+                    font-weight: $font-light;
+                    cursor: pointer;
+                }
+            }
+        }
+        button{
+            border: none;
+            height: 39px;
+            width: 160px;
+            font-size: 15px;
+            font-family: $font;
+            font-weight: $font-semi-bold;
+            cursor: pointer;
+            color: $green-light;
+            border-radius: 9px;
+            background-color: $white;
+        }
+    }
+    .header-title{
+        font-family: $font;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $white;
+        .title{
+            display: flex;
+            flex-direction: column;
+            h1{
+                font-size: 126px;
+                font-weight: $font-normal;
+            }
+            h2{
+                margin-left: 182.58px;
+                font-size: 54px;
+                font-weight: $font-normal;
+                transform: rotate(-9deg);
+                margin-top: -25px;
+            }
+        }
+    }
+}
+main{
+    position: relative;
+    margin-top: -36px;
+    z-index: -1;
+    .welcome{
+        background-image: url('../img/61842.png');
+        width: 1920px;
+        height: 752px;
+        &-conteneur{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .welcome-text{
+                margin-left: 300px;
+                margin-top: -180px;
+                font-family: $font;
+                padding-bottom: 40px;
+                h2{
+                    color: $green-light;
+                    font-size: 52px;
+                    font-weight: $font-semi-bold;
+                }
+                p{
+                    padding-bottom: 40px;
+                    font-size: 18px;
+                    font-weight: $font-normal;
+                    width: 476px;
+                    line-height: 24px;
+                }
+            }
+            img{
+                margin-left: 500px;
+                height: 983px;
+                width: auto;
+            }
+        }
+    }
+    .accroche{
+        background-image: url(../img/ismael-trevino-NDyuR4Huig8-unsplash.png);
+        background-size: cover;
+        height: 809px;
+        width: 1920px;
+        position: relative;
+        z-index: 1;
+        color: $white;
+        .accroche-conteneur-haut{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 809px;
+            .accroche-conteneur-bas{
+                margin-left: 100px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: $green-light;
+                opacity: 0.85;
+                width: 632px;
+                height: 642px;
+            }
+        }
+    }
+    .menu{
+        background-image: url(../img/pattern.png);
+    }
+    .preparation{
+        background-image: url(../img/louis-hansel-MlPD-AzZYMg-unsplash.png);
+    }
+    .form{
+        background-image: url(../img/61842.png);
+    }
+}
+footer{
+    background-color: $green-light;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-items: center;
+    height: 290px;
+    width: 1920px;
+    color: $white;
+    font-family: $font;
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        h3{
+            font-size: 27px;
+            font-weight: $font-semi-bold;
+            line-height: normal;
+        }
+        p{
+            line-height: 34px;
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
 }
