@@ -5,68 +5,73 @@
 header{
     background-image: url('../img/Header\ back.png');
     background-size: cover;
-    color:linear-gradient(-45deg, rgba(96,160,216, 0.62), rgba(178,210,53,0.62));
     width: 1920px;
     height: 1080px;
-    nav{
-        height: 69px;
-        display: flex;
-        align-items: center;
-        gap: 123px;
-        padding: 40px 25px;
-        img{
-            width: 200px;
-        }
-        ul{
+    .overlay{
+        background: linear-gradient(-45deg, $blue-light, $green-light);
+        opacity: 0.62;
+        width: 1920px;
+        height: 1080px;
+        nav{
+            height: 69px;
             display: flex;
-            justify-content: flex-end;
             align-items: center;
-            list-style: none;
-            gap: 50px;
-            flex: 1 1 auto;
-            li{
-                a{
-                    text-decoration: none;
-                    color: $white;
-                    font-size: 18px;
-                    font-family:$font;
-                    font-weight: $font-light;
-                    cursor: pointer;
+            gap: 123px;
+            padding: 40px 25px;
+            img{
+                width: 200px;
+            }
+            ul{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                list-style: none;
+                gap: 50px;
+                flex: 1 1 auto;
+                li{
+                    a{
+                        text-decoration: none;
+                        color: $white;
+                        font-size: 18px;
+                        font-family:$font;
+                        font-weight: $font-light;
+                        cursor: pointer;
+                    }
                 }
             }
-        }
-        button{
-            border: none;
-            height: 39px;
-            width: 160px;
-            font-size: 15px;
-            font-family: $font;
-            font-weight: $font-semi-bold;
-            cursor: pointer;
-            color: $green-light;
-            border-radius: 9px;
-            background-color: $white;
-        }
-    }
-    .header-title{
-        font-family: $font;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: $white;
-        .title{
-            display: flex;
-            flex-direction: column;
-            h1{
-                font-size: 126px;
-                font-weight: $font-normal;
+            button{
+                border: none;
+                height: 39px;
+                width: 160px;
+                font-size: 15px;
+                font-family: $font;
+                font-weight: $font-semi-bold;
+                cursor: pointer;
+                color: $green-light;
+                border-radius: 9px;
+                background-color: $white;
             }
-            h2{
-                margin-left: 182.58px;
-                font-size: 54px;
-                font-weight: $font-normal;
-                transform: rotate(-9deg);
-                margin-top: -25px;
+        }
+        .header-title{
+            font-family: $font;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $white;
+            .title{
+                display: flex;
+                flex-direction: column;
+                h1{
+                    font-size: 126px;
+                    font-weight: $font-normal;
+                }
+                h2{
+                    margin-left: 182.58px;
+                    font-size: 54px;
+                    font-weight: $font-normal;
+                    transform: rotate(-9deg);
+                    margin-top: -25px;
+                }
             }
         }
     }

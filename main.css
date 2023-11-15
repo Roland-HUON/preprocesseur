@@ -7,21 +7,26 @@
 header {
   background-image: url("../img/Header back.png");
   background-size: cover;
-  color: linear-gradient(-45deg, rgba(96, 160, 216, 0.62), rgba(178, 210, 53, 0.62));
   width: 1920px;
   height: 1080px;
 }
-header nav {
+header .overlay {
+  background: linear-gradient(-45deg, #60A0D8, #B2D234);
+  opacity: 0.62;
+  width: 1920px;
+  height: 1080px;
+}
+header .overlay nav {
   height: 69px;
   display: flex;
   align-items: center;
   gap: 123px;
   padding: 40px 25px;
 }
-header nav img {
+header .overlay nav img {
   width: 200px;
 }
-header nav ul {
+header .overlay nav ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -29,7 +34,7 @@ header nav ul {
   gap: 50px;
   flex: 1 1 auto;
 }
-header nav ul li a {
+header .overlay nav ul li a {
   text-decoration: none;
   color: #FFFFFF;
   font-size: 18px;
@@ -37,7 +42,7 @@ header nav ul li a {
   font-weight: 300;
   cursor: pointer;
 }
-header nav button {
+header .overlay nav button {
   border: none;
   height: 39px;
   width: 160px;
@@ -49,22 +54,22 @@ header nav button {
   border-radius: 9px;
   background-color: #FFFFFF;
 }
-header .header-title {
+header .overlay .header-title {
   font-family: "Poppins", sans serif;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #FFFFFF;
 }
-header .header-title .title {
+header .overlay .header-title .title {
   display: flex;
   flex-direction: column;
 }
-header .header-title .title h1 {
+header .overlay .header-title .title h1 {
   font-size: 126px;
   font-weight: 400;
 }
-header .header-title .title h2 {
+header .overlay .header-title .title h2 {
   margin-left: 182.58px;
   font-size: 54px;
   font-weight: 400;
