@@ -10,14 +10,21 @@ header{
     .overlay{
         background: linear-gradient(-45deg, $blue-light, $green-light);
         opacity: 0.62;
-        width: 1920px;
-        height: 1080px;
+        width: 120em;
+        height: 67.5em;
+    }
+    .header-content{
+        position: absolute;
+        z-index: 1;
+        top: 2.5em;
+        left: 1.563em;
+        width: 120em;
+        height: 67.5em;
         nav{
-            height: 69px;
             display: flex;
             align-items: center;
-            gap: 123px;
-            padding: 40px 25px;
+            gap: 353px;
+            width: 114.688em;
             img{
                 width: 200px;
             }
@@ -124,10 +131,10 @@ main{
         .accroche-conteneur-haut{
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-end;
             height: 809px;
             .accroche-conteneur-bas{
-                margin-left: 100px;
+                margin-right: 9.625em;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -136,6 +143,34 @@ main{
                 opacity: 0.85;
                 width: 632px;
                 height: 642px;
+                .accroche-conteneur-bas-content{
+                    font-family: $font;
+                    width: 471px;
+                    height: 556px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 2.5em;
+                    h2{
+                        width: 428px;
+                        text-align: center;
+                        font-size: 52px;
+                        font-weight: $font-semi-bold;
+                        padding-bottom: 40px;
+                        line-height: 66px;
+                        letter-spacing: 1.04px;
+                    }
+                    .accroche-conteneur-bas-content-text{
+                        p{
+                            width: 428px;
+                            font-size: 18px;
+                            font-weight: $font-normal;
+                            line-height: 24px;
+                            letter-spacing: 1.04px;
+                            text-align: center;
+                        }
+                    }
+                }
             }
         }
     }

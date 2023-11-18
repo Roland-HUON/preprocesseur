@@ -4,6 +4,36 @@
   box-sizing: border-box;
 }
 
+.btn {
+  width: 256px;
+  height: 61px;
+  font-family: "Poppins", sans serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: 1.04px;
+  color: #B2D234;
+  background-color: #FFFFFF;
+  box-shadow: 0 8px;
+  backdrop-filter: blur(16%);
+}
+.btn .primary-btn {
+  border: green;
+  height: 39px;
+  width: 160px;
+  font-size: 15px;
+  font-family: "Poppins", sans serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: #B2D234;
+  border-radius: 9px;
+  background-color: #FFFFFF;
+}
+.btn .secondary-btn {
+  color: #B2D234;
+  background-color: #FFFFFF;
+}
+
 header {
   background-image: url("../img/Header back.png");
   background-size: cover;
@@ -13,20 +43,27 @@ header {
 header .overlay {
   background: linear-gradient(-45deg, #60A0D8, #B2D234);
   opacity: 0.62;
-  width: 1920px;
-  height: 1080px;
+  width: 120em;
+  height: 67.5em;
 }
-header .overlay nav {
-  height: 69px;
+header .header-content {
+  position: absolute;
+  z-index: 1;
+  top: 2.5em;
+  left: 1.563em;
+  width: 120em;
+  height: 67.5em;
+}
+header .header-content nav {
   display: flex;
   align-items: center;
-  gap: 123px;
-  padding: 40px 25px;
+  gap: 353px;
+  width: 114.688em;
 }
-header .overlay nav img {
+header .header-content nav img {
   width: 200px;
 }
-header .overlay nav ul {
+header .header-content nav ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -34,7 +71,7 @@ header .overlay nav ul {
   gap: 50px;
   flex: 1 1 auto;
 }
-header .overlay nav ul li a {
+header .header-content nav ul li a {
   text-decoration: none;
   color: #FFFFFF;
   font-size: 18px;
@@ -42,7 +79,7 @@ header .overlay nav ul li a {
   font-weight: 300;
   cursor: pointer;
 }
-header .overlay nav button {
+header .header-content nav button {
   border: none;
   height: 39px;
   width: 160px;
@@ -54,22 +91,22 @@ header .overlay nav button {
   border-radius: 9px;
   background-color: #FFFFFF;
 }
-header .overlay .header-title {
+header .header-content .header-title {
   font-family: "Poppins", sans serif;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #FFFFFF;
 }
-header .overlay .header-title .title {
+header .header-content .header-title .title {
   display: flex;
   flex-direction: column;
 }
-header .overlay .header-title .title h1 {
+header .header-content .header-title .title h1 {
   font-size: 126px;
   font-weight: 400;
 }
-header .overlay .header-title .title h2 {
+header .header-content .header-title .title h2 {
   margin-left: 182.58px;
   font-size: 54px;
   font-weight: 400;
@@ -127,11 +164,11 @@ main .accroche {
 main .accroche .accroche-conteneur-haut {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   height: 809px;
 }
 main .accroche .accroche-conteneur-haut .accroche-conteneur-bas {
-  margin-left: 100px;
+  margin-right: 9.625em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -140,6 +177,32 @@ main .accroche .accroche-conteneur-haut .accroche-conteneur-bas {
   opacity: 0.85;
   width: 632px;
   height: 642px;
+}
+main .accroche .accroche-conteneur-haut .accroche-conteneur-bas .accroche-conteneur-bas-content {
+  font-family: "Poppins", sans serif;
+  width: 471px;
+  height: 556px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5em;
+}
+main .accroche .accroche-conteneur-haut .accroche-conteneur-bas .accroche-conteneur-bas-content h2 {
+  width: 428px;
+  text-align: center;
+  font-size: 52px;
+  font-weight: 600;
+  padding-bottom: 40px;
+  line-height: 66px;
+  letter-spacing: 1.04px;
+}
+main .accroche .accroche-conteneur-haut .accroche-conteneur-bas .accroche-conteneur-bas-content .accroche-conteneur-bas-content-text p {
+  width: 428px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1.04px;
+  text-align: center;
 }
 main .menu {
   background-image: url(../img/pattern.png);
