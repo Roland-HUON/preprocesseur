@@ -1,9 +1,4 @@
-$font : 'Poppins', sans serif;
-$font-semi-bold : 600;
-$font-light : 300;
-$font-normal : 400;
-$font-bolt : 700;
-@use '../themes/themes' as *;
+@use '../abstract/variables' as *;
 body{
     font-family: $font;
     letter-spacing: 1.04px;
@@ -16,4 +11,10 @@ h2{
     color: $green-light;
     line-height: 66px;
     letter-spacing: 1.04px;
+    @media screen and (max-width: 1366px) {
+        font-size: 54px;
+    }
+    @media screen and (max-width: 376px) {
+        font-size: 24px;
+    }
 }

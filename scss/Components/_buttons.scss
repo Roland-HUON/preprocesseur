@@ -1,7 +1,5 @@
-$btn-large-radius : 14px;
 @use '../abstract/variables' as *;
 @use '../Base/typography' as *;
-@use '../Themes/themes' as *;
 .btn-secondary-btn{
     width: 256px;
     height: 61px;
@@ -29,4 +27,12 @@ $btn-large-radius : 14px;
     border-radius: 14px;
     box-shadow: 0 8px;
     backdrop-filter: blur(16px);
+    @media screen and (max-width: 1366px) {
+        width: 13.063em;
+        height: 3.75em;
+    }
+    @media screen and (max-width: 376px) {
+        height: 2em;
+        width: 10em;
+    }
 }

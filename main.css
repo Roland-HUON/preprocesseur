@@ -18,6 +18,16 @@ h2 {
   line-height: 66px;
   letter-spacing: 1.04px;
 }
+@media screen and (max-width: 1366px) {
+  h2 {
+    font-size: 54px;
+  }
+}
+@media screen and (max-width: 376px) {
+  h2 {
+    font-size: 24px;
+  }
+}
 
 .btn-secondary-btn {
   width: 256px;
@@ -48,18 +58,54 @@ h2 {
   box-shadow: 0 8px;
   backdrop-filter: blur(16px);
 }
+@media screen and (max-width: 1366px) {
+  .btn-primary-btn {
+    width: 13.063em;
+    height: 3.75em;
+  }
+}
+@media screen and (max-width: 376px) {
+  .btn-primary-btn {
+    height: 2em;
+    width: 10em;
+  }
+}
 
 header {
   background-image: url("../img/Header back.png");
   background-size: cover;
-  width: 1920px;
-  height: 1080px;
+  width: 120em;
+  height: 67.5em;
+}
+@media screen and (max-width: 1366px) {
+  header {
+    width: 85.375em;
+    height: 47.938em;
+  }
+}
+@media screen and (max-width: 376px) {
+  header {
+    width: 23.438em;
+    height: 13.125em;
+  }
 }
 header .overlay {
   background: linear-gradient(-45deg, #60A0D8, #B2D234);
   opacity: 0.62;
   width: 120em;
   height: 67.5em;
+}
+@media screen and (max-width: 1366px) {
+  header .overlay {
+    width: 85.375em;
+    height: 47.938em;
+  }
+}
+@media screen and (max-width: 376px) {
+  header .overlay {
+    width: 23.438em;
+    height: 13.125em;
+  }
 }
 header .header-content {
   padding: 2.5em 1.563em;
@@ -71,13 +117,45 @@ header .header-content {
   width: 120em;
   height: 67.5em;
 }
+@media screen and (max-width: 1366px) {
+  header .header-content {
+    width: 85.375em;
+    height: 47.938em;
+  }
+}
+@media screen and (max-width: 376px) {
+  header .header-content {
+    width: 23.438em;
+    height: 13.125em;
+  }
+}
 header .header-content nav {
   display: flex;
   align-items: center;
-  gap: 353px;
+  gap: 22.063em;
+}
+@media screen and (max-width: 1366px) {
+  header .header-content nav {
+    gap: 22.063em;
+  }
+}
+@media screen and (max-width: 376px) {
+  header .header-content nav {
+    gap: 6em;
+  }
 }
 header .header-content nav img {
-  width: 200px;
+  width: 12.5em;
+}
+@media screen and (max-width: 1366px) {
+  header .header-content nav img {
+    width: 12.5em;
+  }
+}
+@media screen and (max-width: 376px) {
+  header .header-content nav img {
+    width: 3.375em;
+  }
 }
 header .header-content nav ul {
   display: flex;
@@ -86,6 +164,17 @@ header .header-content nav ul {
   list-style: none;
   gap: 50px;
   flex: 1 1 auto;
+}
+@media screen and (max-width: 1366px) {
+  header .header-content nav ul {
+    gap: 50px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 376px) {
+  header .header-content nav ul {
+    width: 3.375em;
+  }
 }
 header .header-content nav ul li a {
   text-decoration: none;
@@ -244,15 +333,51 @@ main .menu {
   justify-content: center;
   gap: 83px;
 }
+@media screen and (max-width: 1366px) {
+  main .menu {
+    padding: 148px 323px;
+    width: 85.375em;
+    height: 47.938em;
+    gap: 87px;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .menu {
+    width: 23.438em;
+    height: 13.125em;
+    padding: 5px;
+    gap: 10px;
+  }
+}
 main .menu .menu-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 33px;
 }
+@media screen and (max-width: 1366px) {
+  main .menu .menu-header {
+    gap: 35px;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .menu .menu-header {
+    gap: 20px;
+  }
+}
 main .menu .menu-header .menu-text-header p {
   text-align: center;
   font-size: 18px;
+}
+@media screen and (max-width: 1366px) {
+  main .menu .menu-header .menu-text-header {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .menu .menu-header .menu-text-header {
+    font-size: 10px;
+  }
 }
 main .menu .menu-choice {
   display: grid;
@@ -371,11 +496,39 @@ main .preparation {
   gap: 22px;
   padding: 56px;
 }
+@media screen and (max-width: 1366px) {
+  main .preparation {
+    padding: 40px;
+    width: 85.375em;
+    height: 47.938em;
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .preparation {
+    width: 23.438em;
+    height: 13.125em;
+    padding: 5px;
+    gap: 10px;
+  }
+}
 main .preparation .green-opacity {
   background-color: #B2D234;
   opacity: 0.85;
   width: 888px;
   height: 634px;
+}
+@media screen and (max-width: 1366px) {
+  main .preparation .green-opacity {
+    width: 39.5em;
+    height: 25.625em;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .preparation .green-opacity {
+    width: 23.438em;
+    height: 13.125em;
+  }
 }
 main .preparation .green {
   padding: 140px 35px;
@@ -388,11 +541,35 @@ main .preparation .green {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 1366px) {
+  main .preparation .green {
+    padding: 100px 23px;
+    left: 35px;
+    width: 39.5em;
+    height: 25.625em;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .preparation .green {
+    width: 23.438em;
+    height: 13.125em;
+  }
+}
 main .preparation .green .green-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 69px;
+}
+@media screen and (max-width: 1366px) {
+  main .preparation .green .green-content {
+    gap: 45px;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .preparation .green .green-content {
+    gap: 20px;
+  }
 }
 main .preparation .green .green-content h2 {
   color: #FFFFFF;
@@ -412,20 +589,57 @@ main .preparation .blue-opacity {
   width: 888px;
   height: 634px;
 }
+@media screen and (max-width: 1366px) {
+  main .preparation .blue-opacity {
+    width: 39.5em;
+    height: 25.625em;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .preparation .blue-opacity {
+    width: 23.438em;
+    height: 13.125em;
+  }
+}
 main .preparation .blue {
-  display: flex;
   padding: 140px 35px;
+  display: flex;
   position: absolute;
   right: -179px;
   width: 888px;
   height: 634px;
   justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1366px) {
+  main .preparation .blue {
+    padding: 100px 23px;
+    right: 35px;
+    width: 39.5em;
+    height: 25.625em;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .preparation .blue {
+    width: 23.438em;
+    height: 13.125em;
+  }
 }
 main .preparation .blue .blue-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 69px;
+}
+@media screen and (max-width: 1366px) {
+  main .preparation .blue .blue-content {
+    gap: 45px;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .preparation .blue .blue-content {
+    gap: 20px;
+  }
 }
 main .preparation .blue .blue-content h2 {
   color: #FFFFFF;
@@ -448,6 +662,20 @@ main .form {
   align-items: center;
   gap: 64px;
 }
+@media screen and (max-width: 1366px) {
+  main .form {
+    width: 85.375em;
+    height: 18.125em;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .form {
+    gap: 10px;
+    flex-direction: column;
+    height: 54.375em;
+    width: 23.438em;
+  }
+}
 main .form .form-background {
   z-index: -1;
   position: absolute;
@@ -455,6 +683,18 @@ main .form .form-background {
   opacity: 0.16;
   width: 120em;
   height: 67.5em;
+}
+@media screen and (max-width: 1366px) {
+  main .form .form-background {
+    width: 85.375em;
+    height: 18.125em;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .form .form-background {
+    height: 54.375em;
+    width: 23.438em;
+  }
 }
 main .form .form-img {
   background-image: url(../img/anh-nguyen-_Uqj5BQb-mw-unsplash.png);
@@ -465,21 +705,59 @@ main .form .form-img {
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 1366px) {
+  main .form .form-img {
+    width: 85.375em;
+    height: 18.125em;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .form .form-img {
+    display: none;
+    height: 18em;
+    width: 18em;
+  }
+}
 main .form .form-img .form-img-vertical {
   position: absolute;
   height: 524px;
   width: 0px;
   border: 8px solid #FFFFFF;
 }
+@media screen and (max-width: 376px) {
+  main .form .form-img .form-img-vertical {
+    display: none;
+    height: 18em;
+    border: 4px solid #FFFFFF;
+  }
+}
 main .form .form-img .form-img-horizontal {
   width: 524px;
   height: 0px;
   border: 8px solid #FFFFFF;
 }
+@media screen and (max-width: 376px) {
+  main .form .form-img .form-img-horizontal {
+    display: none;
+    width: 18em;
+    border: 4px solid #FFFFFF;
+  }
+}
 main .form .form-content {
   display: flex;
   flex-direction: column;
   gap: 41px;
+}
+@media screen and (max-width: 1366px) {
+  main .form .form-content {
+    gap: 27px;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .form .form-content {
+    width: 23.438em;
+    gap: 20px;
+  }
 }
 main .form .form-content .form-content-header {
   width: 645px;
@@ -487,10 +765,78 @@ main .form .form-content .form-content-header {
   flex-direction: column;
   gap: 35px;
 }
+@media screen and (max-width: 1366px) {
+  main .form .form-content .form-content-header {
+    gap: 23px;
+    width: 85.375em;
+    height: 18.125em;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .form .form-content .form-content-header {
+    align-items: center;
+    gap: 10px;
+    height: 26.25em;
+    width: 23.438em;
+  }
+}
+main .form .form-content .form-content-header .form-img {
+  display: none;
+  background-image: url(../img/anh-nguyen-_Uqj5BQb-mw-unsplash.png);
+  background-size: cover;
+  width: 524px;
+  height: 524px;
+}
+@media screen and (max-width: 1366px) {
+  main .form .form-content .form-content-header .form-img {
+    width: 85.375em;
+    height: 18.125em;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .form .form-content .form-content-header .form-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18em;
+    width: 18em;
+  }
+}
+main .form .form-content .form-content-header .form-img .form-img-vertical {
+  display: none;
+  position: absolute;
+  width: 0px;
+}
+@media screen and (max-width: 376px) {
+  main .form .form-content .form-content-header .form-img .form-img-vertical {
+    display: block;
+    height: 18em;
+    border: 4px solid #FFFFFF;
+  }
+}
+main .form .form-content .form-content-header .form-img .form-img-horizontal {
+  display: none;
+  height: 0px;
+}
+@media screen and (max-width: 376px) {
+  main .form .form-content .form-content-header .form-img .form-img-horizontal {
+    display: block;
+    width: 18em;
+    border: 4px solid #FFFFFF;
+  }
+}
 main .form .form-content .form-content-header p {
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
+}
+@media screen and (max-width: 376px) {
+  main .form .form-content .form-content-header p {
+    width: 23.438em;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+  }
 }
 main .form .form-content form {
   width: 888px;
@@ -500,32 +846,91 @@ main .form .form-content form {
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 1366px) {
+  main .form .form-content form {
+    gap: 24px;
+    width: 19.25em;
+    height: 2.813em;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .form .form-content form {
+    gap: 15px;
+    height: fit-content;
+    width: 23.5em;
+  }
+}
 main .form .form-content form h3 {
   color: #B2D234;
   font-size: 23px;
   font-weight: 300;
-  letter-spacing: 1.04;
   line-height: 29px;
+}
+@media screen and (max-width: 376px) {
+  main .form .form-content form h3 {
+    font-size: 16px;
+  }
 }
 main .form .form-content form div {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
+@media screen and (max-width: 1366px) {
+  main .form .form-content form div {
+    gap: 10px;
+  }
+}
 main .form .form-content form .form-content-you {
   width: 432px;
   height: 69px;
   border: 1px solid rgb(199, 196, 196);
+}
+@media screen and (max-width: 1366px) {
+  main .form .form-content form .form-content-you {
+    width: 19.25em;
+    height: 2.813em;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .form .form-content form .form-content-you {
+    height: 2em;
+    width: 23.5em;
+  }
 }
 main .form .form-content form .form-content-email input {
   width: 888px;
   height: 69px;
   border: 1px solid rgb(199, 196, 196);
 }
+@media screen and (max-width: 1366px) {
+  main .form .form-content form .form-content-email input {
+    width: 19.25em;
+    height: 2.813em;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .form .form-content form .form-content-email input {
+    height: 2em;
+    width: 23.5em;
+  }
+}
 main .form .form-content form .form-content-motivation input {
   width: 888px;
   height: 208px;
   border: 1px solid rgb(199, 196, 196);
+}
+@media screen and (max-width: 1366px) {
+  main .form .form-content form .form-content-motivation input {
+    width: 19.25em;
+    height: 2.813em;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .form .form-content form .form-content-motivation input {
+    height: 5em;
+    width: 23.5em;
+  }
 }
 
 footer {
@@ -534,10 +939,34 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
   justify-items: center;
-  height: 290px;
-  width: 1920px;
+  height: 18.125em;
+  width: 120em;
   color: #FFFFFF;
   font-family: "Poppins", sans serif;
+}
+@media screen and (max-width: 1366px) {
+  footer {
+    width: 85.375em;
+    height: 18.125em;
+  }
+}
+@media screen and (max-width: 376px) {
+  footer {
+    gap: 5px;
+    grid-template-columns: 1fr;
+    height: fit-content;
+    width: 23.5em;
+  }
+}
+footer img {
+  cursor: pointer;
+}
+@media screen and (max-width: 376px) {
+  footer img {
+    order: 2;
+    width: 7em;
+    height: 2.5em;
+  }
 }
 footer section {
   display: flex;
@@ -545,10 +974,30 @@ footer section {
   align-items: center;
   gap: 10px;
 }
+@media screen and (max-width: 1366px) {
+  footer section {
+    gap: 29px;
+  }
+}
+@media screen and (max-width: 376px) {
+  footer section {
+    gap: 0px;
+  }
+}
 footer section h3 {
   font-size: 27px;
   font-weight: 600;
-  line-height: normal;
+  line-height: 34px;
+}
+@media screen and (max-width: 1366px) {
+  footer section h3 {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 376px) {
+  footer section h3 {
+    font-size: 20px;
+  }
 }
 footer section p {
   line-height: 34px;
@@ -559,6 +1008,16 @@ footer section p {
 footer section p a {
   text-decoration: none;
   color: white;
+}
+@media screen and (max-width: 1366px) {
+  footer section p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 376px) {
+  footer section p {
+    font-size: 10px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
