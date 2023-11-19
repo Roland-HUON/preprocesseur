@@ -2,7 +2,7 @@ $btn-large-radius : 14px;
 @use '../abstract/variables' as *;
 @use '../Base/typography' as *;
 @use '../Themes/themes' as *;
-.btn {
+.btn-secondary-btn{
     width: 256px;
     height: 61px;
     font-family: $font;
@@ -12,22 +12,21 @@ $btn-large-radius : 14px;
     letter-spacing: 1.04px;
     color: $green-light;
     background-color: $white;
+    border-color: $green-light;
+    border-radius: 14px;
+    box-shadow: 0 8px rgba(0,0,0,0.16);
+    backdrop-filter: blur(16px);
+}
+.btn-primary-btn {
+    width: 256px;
+    height: 92px;
+    font-size: 24px;
+    font-weight: $font-semi-bold;
+    line-height: 43px;
+    color: $white;
+    background-color: $green-light;
+    border-color: $green-light;
+    border-radius: 14px;
     box-shadow: 0 8px;
-    backdrop-filter: blur(16%);
-    .primary-btn {
-        border: green;
-        height: 39px;
-        width: 160px;
-        font-size: 15px;
-        font-family: $font;
-        font-weight: $font-semi-bold;
-        cursor: pointer;
-        color: $green-light;
-        border-radius: 9px;
-        background-color: $white;
-    }
-    .secondary-btn{
-        color: $green-light;
-        background-color: $white;
-    }
+    backdrop-filter: blur(16px);
 }
