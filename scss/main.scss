@@ -178,10 +178,63 @@ main{
         background-image: url(../img/pattern.png);
     }
     .preparation{
+        color: $white;
         background-image: url(../img/louis-hansel-MlPD-AzZYMg-unsplash.png);
+        background-size: cover;
+        width: 120em;
+        height: 67.5em;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        justify-items: center;
+        gap: 22px;
+        padding: 56px;
+        .green-opacity{
+            background-color: $green-light;
+            opacity: 0.85;
+            width: 888px;
+            height: 634px;
+        }
+        .green{
+            position: absolute;
+        }
+        .blue-opacity{
+            background-color: $blue-light;
+            opacity: 0.85;
+            width: 888px;
+            height: 634px;
+        }
+        .blue{
+            position: absolute;
+        }
     }
     .form{
         background-image: url(../img/61842.png);
+        width: 120em;
+        height: 67.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .form-img{
+            background-image: url(../img/anh-nguyen-_Uqj5BQb-mw-unsplash.png);
+            background-size: cover;
+            width: 524px;
+            height: 524px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .form-img-vertical{
+                transform: rotate(90deg);
+                height: 524px;
+                width: 1px;
+                border: 8px solid $white;
+            }
+            .form-img-horizontal{
+                width: 524px;
+                height: 1px;
+                border: 8px solid $white;
+            }
+        }
     }
 }
 footer{
