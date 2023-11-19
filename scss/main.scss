@@ -141,6 +141,14 @@ main{
         background-image: url('../img/61842.png');
         width: 1920px;
         height: 752px;
+        @media screen and (max-width: 1366px) {
+            width: 85.375em;
+            height: 883px;
+        }
+        @media screen and (max-width: 376px) {
+            width: 23.438em;
+            height: 13.125em;
+        }
         &-conteneur{
             display: flex;
             justify-content: center;
@@ -183,11 +191,27 @@ main{
         position: relative;
         z-index: 1;
         color: $white;
+        @media screen and (max-width: 1366px) {
+            width: 85.375em;
+            height: 47.938em;
+        }
+        @media screen and (max-width: 376px) {
+            width: 23.438em;
+            height: 13.125em;
+        }
         .accroche-conteneur-haut{
             display: flex;
             align-items: center;
             justify-content: flex-end;
             height: 1251px;
+            @media screen and (max-width: 1366px) {
+                width: 632px;
+                height: 642px;
+            }
+            @media screen and (max-width: 376px) {
+                width: 23.438em;
+                height: 13.125em;
+            }
             .accroche-conteneur-bas{
                 margin-right: 9.625em;
                 display: flex;
@@ -198,6 +222,16 @@ main{
                 opacity: 0.85;
                 width: 888px;
                 height: 993px;
+                @media screen and (max-width: 1366px) {
+                    margin-right: -681px;
+                    margin-top: 135px;
+                    width: 632px;
+                    height: 642px;
+                }
+                @media screen and (max-width: 376px) {
+                    width: 23.438em;
+                    height: 13.125em;
+                }
                 .accroche-conteneur-bas-content{
                     font-family: $font;
                     width: 662px;
@@ -242,7 +276,7 @@ main{
         justify-content: center;
         gap: 83px;
         @media screen and (max-width: 1366px) {
-            padding: 148px 323px;
+            margin-top: 143px;
             width: 85.375em;
             height: 47.938em;
             gap: 87px;
@@ -283,6 +317,17 @@ main{
             grid-template-columns: repeat(2, 1fr);
             justify-items: center;
             gap: 82px;
+            @media screen and (max-width: 1366px) {
+                width: 85.375em;
+                height: 691px;
+                gap: 58.35px;
+            }
+            @media screen and (max-width: 376px) {
+                width: 23.438em;
+                height: 13.125em;
+                padding: 5px;
+                gap: 10px;
+            }
             .menu-content{
                 width: 736px;
                 display: flex;
@@ -395,6 +440,7 @@ main{
         gap: 22px;
         padding: 56px;
         @media screen and (max-width: 1366px) {
+            margin-top: 143px;
             padding: 40px;
             width: 85.375em;
             height: 47.938em;
@@ -534,7 +580,7 @@ main{
         gap: 64px;
         @media screen and (max-width: 1366px) {
             width: 85.375em;
-            height: 18.125em;
+            height: 835.5px;
         }
         @media screen and (max-width: 376px) {
             gap: 10px;
@@ -551,7 +597,7 @@ main{
             height: 67.5em;
             @media screen and (max-width: 1366px) {
                 width: 85.375em;
-                height: 18.125em;
+                height: 835.5px;
             }
             @media screen and (max-width: 376px) {
                 height: 54.375em;
@@ -567,8 +613,8 @@ main{
             align-items: center;
             justify-content: center;
             @media screen and (max-width: 1366px) {
-                width: 85.375em;
-                height: 18.125em;
+                width: 524px;
+                height: 524px;
             }
             @media screen and (max-width: 376px) {
                 display: none;
@@ -605,7 +651,6 @@ main{
                     gap: 27px;
                 }
                 @media screen and (max-width: 376px) {
-                    width: 23.438em;
                     gap: 20px;
                 }
             .form-content-header{
@@ -615,8 +660,8 @@ main{
                 gap: 35px; //35px
                 @media screen and (max-width: 1366px) {
                     gap: 23px;
-                    width: 85.375em;
-                    height: 18.125em;
+                    width: 632px;
+                    height: 168px;
                 }
                 @media screen and (max-width: 376px) {
                     align-items: center;
@@ -631,8 +676,8 @@ main{
                     width: 524px;
                     height: 524px;
                     @media screen and (max-width: 1366px) {
-                        width: 85.375em;
-                        height: 18.125em;
+                        width: 524px;
+                        height: 524px;
                     }
                     @media screen and (max-width: 376px) {
                         display: flex;
@@ -681,9 +726,9 @@ main{
                 align-items: center;
                 justify-content: center;
                 @media screen and (max-width: 1366px) {
-                    gap: 24px;
-                    width: 19.25em;
-                    height: 2.813em;
+                    gap: 16px;
+                    width: 632px;
+                    height: 490.67px;
                 }
                 @media screen and (max-width: 376px) {
                     gap: 15px;
@@ -712,8 +757,8 @@ main{
                     height: 69px;
                     border: 1px solid rgb(199, 196, 196);
                     @media screen and (max-width: 1366px) {
-                        width: 19.25em;
-                        height: 2.813em;
+                        width: 308px;
+                        height: 45px;
                     }
                     @media screen and (max-width: 376px) {
                         height: 2em;
@@ -726,8 +771,8 @@ main{
                         height: 69px;
                         border: 1px solid rgb(199, 196, 196);
                         @media screen and (max-width: 1366px) {
-                            width: 19.25em;
-                            height: 2.813em;
+                            width: 632px;
+                            height: 45px;
                         }
                         @media screen and (max-width: 376px) {
                             height: 2em;
@@ -741,8 +786,8 @@ main{
                         height: 208px;
                         border: 1px solid rgb(199, 196, 196);
                         @media screen and (max-width: 1366px) {
-                            width: 19.25em;
-                            height: 2.813em;
+                            width: 632px;
+                            height: 135px;
                         }
                         @media screen and (max-width: 376px) {
                             height: 5em;

@@ -235,6 +235,18 @@ main .welcome {
   width: 1920px;
   height: 752px;
 }
+@media screen and (max-width: 1366px) {
+  main .welcome {
+    width: 85.375em;
+    height: 883px;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .welcome {
+    width: 23.438em;
+    height: 13.125em;
+  }
+}
 main .welcome-conteneur {
   display: flex;
   justify-content: center;
@@ -277,11 +289,35 @@ main .accroche {
   z-index: 1;
   color: #FFFFFF;
 }
+@media screen and (max-width: 1366px) {
+  main .accroche {
+    width: 85.375em;
+    height: 47.938em;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .accroche {
+    width: 23.438em;
+    height: 13.125em;
+  }
+}
 main .accroche .accroche-conteneur-haut {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   height: 1251px;
+}
+@media screen and (max-width: 1366px) {
+  main .accroche .accroche-conteneur-haut {
+    width: 632px;
+    height: 642px;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .accroche .accroche-conteneur-haut {
+    width: 23.438em;
+    height: 13.125em;
+  }
 }
 main .accroche .accroche-conteneur-haut .accroche-conteneur-bas {
   margin-right: 9.625em;
@@ -293,6 +329,20 @@ main .accroche .accroche-conteneur-haut .accroche-conteneur-bas {
   opacity: 0.85;
   width: 888px;
   height: 993px;
+}
+@media screen and (max-width: 1366px) {
+  main .accroche .accroche-conteneur-haut .accroche-conteneur-bas {
+    margin-right: -681px;
+    margin-top: 135px;
+    width: 632px;
+    height: 642px;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .accroche .accroche-conteneur-haut .accroche-conteneur-bas {
+    width: 23.438em;
+    height: 13.125em;
+  }
 }
 main .accroche .accroche-conteneur-haut .accroche-conteneur-bas .accroche-conteneur-bas-content {
   font-family: "Poppins", sans serif;
@@ -335,7 +385,7 @@ main .menu {
 }
 @media screen and (max-width: 1366px) {
   main .menu {
-    padding: 148px 323px;
+    margin-top: 143px;
     width: 85.375em;
     height: 47.938em;
     gap: 87px;
@@ -385,6 +435,21 @@ main .menu .menu-choice {
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   gap: 82px;
+}
+@media screen and (max-width: 1366px) {
+  main .menu .menu-choice {
+    width: 85.375em;
+    height: 691px;
+    gap: 58.35px;
+  }
+}
+@media screen and (max-width: 376px) {
+  main .menu .menu-choice {
+    width: 23.438em;
+    height: 13.125em;
+    padding: 5px;
+    gap: 10px;
+  }
 }
 main .menu .menu-choice .menu-content {
   width: 736px;
@@ -498,6 +563,7 @@ main .preparation {
 }
 @media screen and (max-width: 1366px) {
   main .preparation {
+    margin-top: 143px;
     padding: 40px;
     width: 85.375em;
     height: 47.938em;
@@ -665,7 +731,7 @@ main .form {
 @media screen and (max-width: 1366px) {
   main .form {
     width: 85.375em;
-    height: 18.125em;
+    height: 835.5px;
   }
 }
 @media screen and (max-width: 376px) {
@@ -687,7 +753,7 @@ main .form .form-background {
 @media screen and (max-width: 1366px) {
   main .form .form-background {
     width: 85.375em;
-    height: 18.125em;
+    height: 835.5px;
   }
 }
 @media screen and (max-width: 376px) {
@@ -707,8 +773,8 @@ main .form .form-img {
 }
 @media screen and (max-width: 1366px) {
   main .form .form-img {
-    width: 85.375em;
-    height: 18.125em;
+    width: 524px;
+    height: 524px;
   }
 }
 @media screen and (max-width: 376px) {
@@ -755,7 +821,6 @@ main .form .form-content {
 }
 @media screen and (max-width: 376px) {
   main .form .form-content {
-    width: 23.438em;
     gap: 20px;
   }
 }
@@ -768,8 +833,8 @@ main .form .form-content .form-content-header {
 @media screen and (max-width: 1366px) {
   main .form .form-content .form-content-header {
     gap: 23px;
-    width: 85.375em;
-    height: 18.125em;
+    width: 632px;
+    height: 168px;
   }
 }
 @media screen and (max-width: 376px) {
@@ -789,8 +854,8 @@ main .form .form-content .form-content-header .form-img {
 }
 @media screen and (max-width: 1366px) {
   main .form .form-content .form-content-header .form-img {
-    width: 85.375em;
-    height: 18.125em;
+    width: 524px;
+    height: 524px;
   }
 }
 @media screen and (max-width: 376px) {
@@ -848,9 +913,9 @@ main .form .form-content form {
 }
 @media screen and (max-width: 1366px) {
   main .form .form-content form {
-    gap: 24px;
-    width: 19.25em;
-    height: 2.813em;
+    gap: 16px;
+    width: 632px;
+    height: 490.67px;
   }
 }
 @media screen and (max-width: 376px) {
@@ -888,8 +953,8 @@ main .form .form-content form .form-content-you {
 }
 @media screen and (max-width: 1366px) {
   main .form .form-content form .form-content-you {
-    width: 19.25em;
-    height: 2.813em;
+    width: 308px;
+    height: 45px;
   }
 }
 @media screen and (max-width: 376px) {
@@ -905,8 +970,8 @@ main .form .form-content form .form-content-email input {
 }
 @media screen and (max-width: 1366px) {
   main .form .form-content form .form-content-email input {
-    width: 19.25em;
-    height: 2.813em;
+    width: 632px;
+    height: 45px;
   }
 }
 @media screen and (max-width: 376px) {
@@ -922,8 +987,8 @@ main .form .form-content form .form-content-motivation input {
 }
 @media screen and (max-width: 1366px) {
   main .form .form-content form .form-content-motivation input {
-    width: 19.25em;
-    height: 2.813em;
+    width: 632px;
+    height: 135px;
   }
 }
 @media screen and (max-width: 376px) {
