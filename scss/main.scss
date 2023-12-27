@@ -6,18 +6,36 @@ footer{
     section{
         background-color: $green-color;
         display: grid;
+        align-items: center;
         grid-template-columns: repeat(4, 1fr);
         padding: 66px 39px;
         img{
-            
+            width: 96%;
+            height: auto;
         }
         .footer-content{
             color: $white-color;
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+            gap: 29px;
             h3{
+                font-size: 27px;
                 font-weight: $font-semi-bold;
+                letter-spacing: 1.04px;
+                line-height: 34px;
             }
             .footer-sous-content{
-                p{}
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                p{
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: $font-regular;
+                    letter-spacing: 1.04px;
+                    line-height: 34px;
+                }
             }
         }
     }
