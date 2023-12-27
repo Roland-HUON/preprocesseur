@@ -2,3 +2,23 @@
 @use 'Base/typography' as *;
 @use 'abstract/variables' as *;
 @use 'Components/buttons' as *;
+footer{
+    section{
+        background-color: $green-color;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 66px 39px;
+        img{
+            
+        }
+        .footer-content{
+            color: $white-color;
+            h3{
+                font-weight: $font-semi-bold;
+            }
+            .footer-sous-content{
+                p{}
+            }
+        }
+    }
+}
