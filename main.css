@@ -62,6 +62,8 @@ header nav .navbar-side .header-btn {
 
 main .head-section {
   background-image: url(../img/Header\ back.png);
+  width: 100%;
+  height: auto;
 }
 
 footer section {
