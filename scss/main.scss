@@ -2,6 +2,19 @@
 @use 'Base/typography' as *;
 @use 'abstract/variables' as *;
 @use 'Components/buttons' as *;
+header{
+    nav{
+        img{}
+        ul{
+            li{
+
+            }
+        }
+        .header-btn{
+            padding: 9px 30px;
+        }
+    }
+}
 footer{
     section{
         background-color: $green-color;

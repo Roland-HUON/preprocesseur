@@ -1,2 +1,14 @@
 @use '../abstract/variables' as *;
 @use '../Base/typography' as *;
+button{
+    border-radius: 8px;
+    padding: 14px 60px;
+}
+.green-btn{
+    background-color: $green-color;
+    color: $white-color;
+}
+.white-btn{
+    background-color: $white-color;
+    color: $green-color;
+}
