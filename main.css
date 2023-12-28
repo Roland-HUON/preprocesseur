@@ -60,6 +60,10 @@ header nav .navbar-side .header-btn {
   line-height: 27px;
 }
 
+main .head-section {
+  background-image: url(../img/Header\ back.png);
+}
+
 footer section {
   background-color: #B2D234;
   display: grid;

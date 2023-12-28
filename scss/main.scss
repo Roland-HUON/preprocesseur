@@ -36,6 +36,11 @@ header{
         }
     }
 }
+main{
+    .head-section{
+        background-image: url(../img/Header\ back.png);
+    }
+}
 footer{
     section{
         background-color: $green-color;
