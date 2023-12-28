@@ -37,12 +37,16 @@ header nav {
   justify-content: space-between;
   padding: 25px 40px;
 }
-header nav ul {
+header nav .navbar-side {
   display: flex;
   align-items: center;
   gap: 50px;
 }
-header nav ul li {
+header nav .navbar-side ul {
+  display: flex;
+  gap: 50px;
+}
+header nav .navbar-side ul li {
   list-style: none;
   color: #FFFFFF;
   font-size: 18px;
@@ -50,7 +54,7 @@ header nav ul li {
   letter-spacing: 0px;
   line-height: 27px;
 }
-header nav ul .header-btn {
+header nav .navbar-side .header-btn {
   font-size: 15px;
   padding: 9px 30px;
   line-height: 27px;
