@@ -17,6 +17,7 @@ footer section img {
   height: auto;
 }
 footer section .footer-content {
+  margin-left: 23.55%;
   color: #FFFFFF;
   width: 75%;
   display: flex;
