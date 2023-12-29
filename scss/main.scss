@@ -114,7 +114,36 @@ main{
             display: none;
         }
     }
-    .third-section{}
+    .third-section{
+        background-image: url(../img/ismael-trevino-NDyuR4Huig8-unsplash.png);
+        background-size: cover;
+        padding: 84px 154px;
+        display: flex;
+        justify-content: flex-end;
+        .third-section-content{
+            background-color: rgba(178, 210, 52, 0.85);
+            width: 60%;
+            padding: 42px 68px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            h2{
+                color: $white-color;
+                text-align: center;
+            }
+            p{
+                color: $white-color;
+                text-align: center;
+                span{
+                    text-decoration: underline;
+                }
+                strong{
+                    font-weight: $font-semi-bold;
+                }
+            }
+        }
+    }
     .fourth-section{}
     .fifth-section{}
     .last-section{
