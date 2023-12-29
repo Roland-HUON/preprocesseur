@@ -10,8 +10,8 @@ header{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 25px 40px;
-        img{}
+        padding: 25px 40px; // 25px 40px
+        // img{}
         .navbar-side{
             display: flex;
             align-items: center;
@@ -38,9 +38,71 @@ header{
 }
 main{
     .head-section{
-        background-image: url(../img/Header\ back.png);
-        width: 100%;
-        height: auto;
+        min-height: 100%;
+        height: 1080px;
+        .head-section-img{
+            width: 100%;
+            height: 100%;
+            background-image: url(../img/Header\ back.png);
+            background-size: cover;
+            .head-section-overlay{
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(-45deg, rgba(96, 160, 216, 0.62) 0%, rgba(178, 210, 52, 0.62) 100%);
+                .head-section-content{
+                    width: 100%;
+                    height: 100%;
+                    padding: 48.5px 40px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    .head-section-title{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        flex: 1;
+                        h1{
+                            font-size: 168px; // = 126pt
+                            font-weight: $font-medium;
+                            color: $white-color;
+                            letter-spacing: 0px;
+                            line-height: 252px; // = 189pt
+                        }
+                        h2{
+                            font-size: 72px;// = 54pt
+                            font-weight: $font-italic;
+                            color: $white-color;
+                            letter-spacing: 0px;
+                            line-height: 108px; // = 81pt
+                        }
+                    }
+                    .head-section-icon-social{
+                        justify-self: end;
+                        align-self: flex-end;
+                        display: flex;
+                        justify-content: flex-end;
+                        gap: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .second-section{
+        background-image: url(../img/61842.png);
+        background-size: contain;
+    }
+    .third-section{}
+    .fourth-section{}
+    .fifth-section{}
+    .last-section{
+        background-image: url(../img/61842.png);
+        background-size: contain;
+        display: flex;
+        .last-section-img{
+            background-image: url(../img/anh-nguyen-_Uqj5BQb-mw-unsplash.png);
+        }
     }
 }
 footer{

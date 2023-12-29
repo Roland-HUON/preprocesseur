@@ -3,8 +3,18 @@ $font-family: 'Poppins', sans-serif;
 $font-semi-bold: 600;
 $font-light: 300;
 $font-regular: 400;
-$font-medium: normal;
+$font-medium: 500;
 $font-italic: italic;
+
+// for basics text and add color white or black-grey
+$font-size-p: 24px; // = 18pt
+$letter-spacing-p: 1.04px;
+$line-height-p: 32px; // = 24pt
+// for title h2 and add color white or green
+$font-size-h2: 69px; // = 52pt
+$letter-spacing-h2: 1.04px;
+$line-height-h2: 88px; // = 66pt
+
 h3{
     color: $green-color;
 }
