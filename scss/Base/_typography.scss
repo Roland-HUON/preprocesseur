@@ -7,14 +7,28 @@ $font-medium: 500;
 $font-italic: italic;
 
 // for basics text and add color white or black-grey
-$font-size-p: 24px; // = 18pt
+$font-size-p: 18px;
 $letter-spacing-p: 1.04px;
-$line-height-p: 32px; // = 24pt
+$line-height-p: 24px; // = 24pt
 // for title h2 and add color white or green
-$font-size-h2: 69px; // = 52pt
+$font-size-h2: 52px; 
 $letter-spacing-h2: 1.04px;
-$line-height-h2: 88px; // = 66pt
+$line-height-h2: 66px; // = 66pt
 
+h2{
+    color: $green-color;
+    font-size: $font-size-h2;
+    font-weight: $font-semi-bold;
+    letter-spacing: $letter-spacing-h2;
+    line-height: $line-height-h2;
+}
+p{
+    color: $black-grey-color;
+    font-size: $font-size-p;
+    font-weight: $font-regular;
+    letter-spacing: $letter-spacing-p;
+    line-height: $line-height-p;
+}
 h3{
     color: $green-color;
 }

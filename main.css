@@ -1,3 +1,19 @@
+h2 {
+  color: #B2D234;
+  font-size: 52px;
+  font-weight: 600;
+  letter-spacing: 1.04px;
+  line-height: 66px;
+}
+
+p {
+  color: #606060;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1.04px;
+  line-height: 24px;
+}
+
 h3 {
   color: #B2D234;
 }
@@ -117,8 +133,29 @@ main .head-section .head-section-img .head-section-overlay .head-section-content
   gap: 20px;
 }
 main .second-section {
+  padding-inline-start: 148px;
+  padding-block: 159px;
   background-image: url(../img/61842.png);
   background-size: contain;
+  display: flex;
+  overflow-x: hidden;
+}
+main .second-section .second-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 70%;
+}
+main .second-section .second-section-content p {
+  width: 66%;
+}
+main .second-section .second-section-content button {
+  width: 31%;
+}
+main .second-section img {
+  position: absolute;
+  height: 100%;
+  display: none;
 }
 main .last-section {
   background-image: url(../img/61842.png);

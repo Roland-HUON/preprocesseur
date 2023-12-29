@@ -90,8 +90,29 @@ main{
         }
     }
     .second-section{
+        padding-inline-start: 148px;
+        padding-block: 159px;
         background-image: url(../img/61842.png);
         background-size: contain;
+        display: flex;
+        overflow-x: hidden;
+        .second-section-content{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            width: 70%;
+            p{
+                width: 66%;
+            }
+            button{
+                width: 31%;
+            }
+        }
+        img{
+            position: absolute;
+            height: 100%;
+            display: none;
+        }
     }
     .third-section{}
     .fourth-section{}
