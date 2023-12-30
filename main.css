@@ -342,6 +342,11 @@ main .fourth-section .fourth-section-intro {
   align-items: center;
   gap: 30px;
 }
+@media screen and (max-width: 800px) {
+  main .fourth-section .fourth-section-intro h2 {
+    text-align: center;
+  }
+}
 main .fourth-section .fourth-section-intro p {
   text-align: center;
 }
@@ -351,6 +356,11 @@ main .fourth-section .fourth-section-content {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 59px;
+}
+@media screen and (max-width: 800px) {
+  main .fourth-section .fourth-section-content {
+    grid-template-columns: 1fr;
+  }
 }
 main .fourth-section .fourth-section-content .fourth-section-content-menu {
   display: flex;
