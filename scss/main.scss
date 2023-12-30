@@ -76,6 +76,9 @@ main{
                         align-items: center;
                         justify-content: center;
                         flex: 1;
+                        @media screen and (max-width:800px) {
+                            width: 100%;
+                        }
                         h1{
                             font-size: 168px; // = 126pt
                             font-weight: $font-medium;
@@ -137,6 +140,9 @@ main{
         display: flex;
         overflow-x: hidden;
         overflow-y: hidden;
+        @media screen and (max-width:800px) {
+            padding-inline-start: 74px;
+        }
         .second-section-conteneur{
             position: relative;
             display: flex;
@@ -259,6 +265,7 @@ main{
             gap: 59px;
             @media screen and (max-width:800px) {
                 grid-template-columns: 1fr;
+                padding-inline: 20px;
             }
             .fourth-section-content-menu{
                 display: flex;
@@ -338,6 +345,7 @@ main{
         gap: 16px;
         @media screen and (max-width: 800px) {
             grid-template-columns: 1fr;
+            padding: 50px 20px;
         }
         .fifth-section-content{
             display: flex;
@@ -392,6 +400,9 @@ main{
             @media screen and (max-width:800px) {
                 width: 60%;
                 height: 25em;
+            }
+            @media screen and (max-width:500px) {
+                width: 100%;
             }
         }
         .last-section-img::after{
@@ -467,6 +478,9 @@ main{
                 button{
                     width: 31%;
                     align-self: center;
+                    @media screen and (max-width:800px) {
+                        width: 70%;
+                    }
                 }
             }
         }
@@ -481,6 +495,7 @@ footer{
         padding: 66px 39px;
         @media screen and (max-width:800px) {
             grid-template-columns: repeat(2, 1fr);
+            justify-items: center;
             gap: 40px;
         }
         @media screen and (max-width:500px) {
@@ -498,6 +513,9 @@ footer{
             align-items: center;
             flex-direction: column;
             gap: 27px;
+            @media screen and (max-width:800px) {
+                margin-left: 0;
+            }
             h3{
                 text-align: center;
                 color: $white-color;

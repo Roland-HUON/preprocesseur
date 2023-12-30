@@ -149,6 +149,11 @@ main .head-section .head-section-img .head-section-overlay .head-section-content
   justify-content: center;
   flex: 1;
 }
+@media screen and (max-width: 800px) {
+  main .head-section .head-section-img .head-section-overlay .head-section-content .head-section-title {
+    width: 100%;
+  }
+}
 main .head-section .head-section-img .head-section-overlay .head-section-content .head-section-title h1 {
   font-size: 168px;
   font-weight: 500;
@@ -217,6 +222,11 @@ main .second-section {
   display: flex;
   overflow-x: hidden;
   overflow-y: hidden;
+}
+@media screen and (max-width: 800px) {
+  main .second-section {
+    padding-inline-start: 74px;
+  }
 }
 main .second-section .second-section-conteneur {
   position: relative;
@@ -360,6 +370,7 @@ main .fourth-section .fourth-section-content {
 @media screen and (max-width: 800px) {
   main .fourth-section .fourth-section-content {
     grid-template-columns: 1fr;
+    padding-inline: 20px;
   }
 }
 main .fourth-section .fourth-section-content .fourth-section-content-menu {
@@ -440,6 +451,7 @@ main .fifth-section {
 @media screen and (max-width: 800px) {
   main .fifth-section {
     grid-template-columns: 1fr;
+    padding: 50px 20px;
   }
 }
 main .fifth-section .fifth-section-content {
@@ -501,6 +513,11 @@ main .last-section .last-section-img {
   main .last-section .last-section-img {
     width: 60%;
     height: 25em;
+  }
+}
+@media screen and (max-width: 500px) {
+  main .last-section .last-section-img {
+    width: 100%;
   }
 }
 main .last-section .last-section-img::after {
@@ -579,6 +596,11 @@ main .last-section .last-section-content form button {
   width: 31%;
   align-self: center;
 }
+@media screen and (max-width: 800px) {
+  main .last-section .last-section-content form button {
+    width: 70%;
+  }
+}
 
 footer section {
   background-color: #B2D234;
@@ -590,6 +612,7 @@ footer section {
 @media screen and (max-width: 800px) {
   footer section {
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
     gap: 40px;
   }
 }
@@ -610,6 +633,11 @@ footer section .footer-content {
   align-items: center;
   flex-direction: column;
   gap: 27px;
+}
+@media screen and (max-width: 800px) {
+  footer section .footer-content {
+    margin-left: 0;
+  }
 }
 footer section .footer-content h3 {
   text-align: center;
