@@ -28,6 +28,10 @@ p{
     font-weight: $font-regular;
     letter-spacing: $letter-spacing-p;
     line-height: $line-height-p;
+    @media screen and (max-width: 800px) {
+        font-size: 12px;
+        line-height: 18px;
+    }
 }
 h3{
     color: $green-color;

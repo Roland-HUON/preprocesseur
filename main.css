@@ -13,6 +13,12 @@ p {
   letter-spacing: 1.04px;
   line-height: 24px;
 }
+@media screen and (max-width: 800px) {
+  p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
 
 h3 {
   color: #B2D234;
@@ -137,6 +143,24 @@ main .head-section .head-section-img .head-section-overlay .head-section-content
   letter-spacing: 0px;
   line-height: 252px;
 }
+@media screen and (max-width: 1000px) {
+  main .head-section .head-section-img .head-section-overlay .head-section-content .head-section-title h1 {
+    font-size: 120px;
+    line-height: 180px;
+  }
+}
+@media screen and (max-width: 600px) {
+  main .head-section .head-section-img .head-section-overlay .head-section-content .head-section-title h1 {
+    font-size: 100px;
+    line-height: 150px;
+  }
+}
+@media screen and (max-width: 500px) {
+  main .head-section .head-section-img .head-section-overlay .head-section-content .head-section-title h1 {
+    font-size: 60px;
+    line-height: 120px;
+  }
+}
 main .head-section .head-section-img .head-section-overlay .head-section-content .head-section-title h2 {
   margin-top: -4%;
   margin-left: 22%;
@@ -147,6 +171,24 @@ main .head-section .head-section-img .head-section-overlay .head-section-content
   letter-spacing: 0px;
   line-height: 108px;
   transform: rotate(-9deg);
+}
+@media screen and (max-width: 1000px) {
+  main .head-section .head-section-img .head-section-overlay .head-section-content .head-section-title h2 {
+    font-size: 50px;
+    line-height: 75px;
+  }
+}
+@media screen and (max-width: 600px) {
+  main .head-section .head-section-img .head-section-overlay .head-section-content .head-section-title h2 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  main .head-section .head-section-img .head-section-overlay .head-section-content .head-section-title h2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
 main .head-section .head-section-img .head-section-overlay .head-section-content .head-section-icon-social {
   align-self: flex-end;
