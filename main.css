@@ -138,6 +138,7 @@ main .second-section {
   background-size: auto;
   display: flex;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 main .second-section .second-section-conteneur {
   position: relative;
