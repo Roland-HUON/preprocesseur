@@ -66,6 +66,11 @@ header nav .navbar-side ul {
   display: flex;
   gap: 50px;
 }
+@media screen and (max-width: 1200px) {
+  header nav .navbar-side ul {
+    gap: 30px;
+  }
+}
 header nav .navbar-side ul li {
   list-style: none;
   color: #FFFFFF;
@@ -78,6 +83,20 @@ header nav .navbar-side .header-btn {
   font-size: 15px;
   padding: 9px 30px;
   line-height: 27px;
+}
+@media screen and (max-width: 1000px) {
+  header nav .navbar-side {
+    display: none;
+  }
+}
+header nav .menu {
+  display: none;
+  width: 4%;
+}
+@media screen and (max-width: 1000px) {
+  header nav .menu {
+    display: block;
+  }
 }
 
 main .head-section {
@@ -104,6 +123,7 @@ main .head-section .head-section-img .head-section-overlay .head-section-content
   justify-content: center;
 }
 main .head-section .head-section-img .head-section-overlay .head-section-content .head-section-title {
+  width: 59%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,14 +138,17 @@ main .head-section .head-section-img .head-section-overlay .head-section-content
   line-height: 252px;
 }
 main .head-section .head-section-img .head-section-overlay .head-section-content .head-section-title h2 {
+  margin-top: -4%;
+  margin-left: 22%;
   font-size: 72px;
-  font-weight: italic;
+  font-weight: 500;
+  font-style: italic;
   color: #FFFFFF;
   letter-spacing: 0px;
   line-height: 108px;
+  transform: rotate(-9deg);
 }
 main .head-section .head-section-img .head-section-overlay .head-section-content .head-section-icon-social {
-  justify-self: end;
   align-self: flex-end;
   display: flex;
   justify-content: flex-end;

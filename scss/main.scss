@@ -19,6 +19,9 @@ header{
             ul{
                 display: flex;
                 gap: 50px;
+                @media screen and (max-width: 1200px) {
+                    gap: 30px;
+                }
                 li{
                     list-style: none;
                     color: $white-color;
@@ -32,6 +35,16 @@ header{
                 font-size: 15px;
                 padding: 9px 30px;
                 line-height: 27px;
+            }
+            @media screen and (max-width: 1000px) {
+                display: none;
+            }
+        }
+        .menu{
+            display: none;
+            width: 4%;
+            @media screen and (max-width: 1000px) {
+                display: block;
             }
         }
     }
@@ -57,6 +70,7 @@ main{
                     align-items: center;
                     justify-content: center;
                     .head-section-title{
+                        width: 59%;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
@@ -70,15 +84,18 @@ main{
                             line-height: 252px; // = 189pt
                         }
                         h2{
+                            margin-top: -4%;
+                            margin-left: 22%;
                             font-size: 72px;// = 54pt
-                            font-weight: $font-italic;
+                            font-weight: $font-medium;
+                            font-style: italic;
                             color: $white-color;
                             letter-spacing: 0px;
                             line-height: 108px; // = 81pt
+                            transform: rotate(-9deg);
                         }
                     }
                     .head-section-icon-social{
-                        justify-self: end;
                         align-self: flex-end;
                         display: flex;
                         justify-content: flex-end;
