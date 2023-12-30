@@ -5,6 +5,12 @@ h2 {
   letter-spacing: 1.04px;
   line-height: 66px;
 }
+@media screen and (max-width: 800px) {
+  h2 {
+    font-size: 40px;
+    line-height: 54px;
+  }
+}
 
 p {
   color: #606060;
@@ -40,6 +46,13 @@ button {
   letter-spacing: 1.04px;
   line-height: 43px;
   font-weight: 600;
+}
+@media screen and (max-width: 800px) {
+  button {
+    padding: 7px 30px;
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 
 .green-btn {
@@ -217,11 +230,31 @@ main .second-section .second-section-conteneur .second-section-content {
   gap: 40px;
   width: 70%;
 }
+@media screen and (max-width: 1000px) {
+  main .second-section .second-section-conteneur .second-section-content {
+    width: 80%;
+  }
+}
 main .second-section .second-section-conteneur .second-section-content p {
   width: 66%;
 }
+@media screen and (max-width: 1000px) {
+  main .second-section .second-section-conteneur .second-section-content p {
+    width: 100%;
+  }
+}
 main .second-section .second-section-conteneur .second-section-content button {
   width: 36%;
+}
+@media screen and (max-width: 1200px) {
+  main .second-section .second-section-conteneur .second-section-content button {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 850px) {
+  main .second-section .second-section-conteneur .second-section-content button {
+    width: 70%;
+  }
 }
 main .second-section .second-section-conteneur img {
   position: absolute;
@@ -229,6 +262,24 @@ main .second-section .second-section-conteneur img {
   right: -30%;
   z-index: 1;
   height: 200%;
+}
+@media screen and (max-width: 1200px) {
+  main .second-section .second-section-conteneur img {
+    height: 100%;
+    top: 0;
+    right: 0;
+  }
+}
+@media screen and (max-width: 1000px) {
+  main .second-section .second-section-conteneur img {
+    top: 50%;
+    right: -10%;
+  }
+}
+@media screen and (max-width: 600px) {
+  main .second-section .second-section-conteneur img {
+    display: none;
+  }
 }
 main .third-section {
   position: relative;
