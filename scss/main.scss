@@ -95,25 +95,35 @@ main{
         background-size: auto;
         display: flex;
         overflow-x: hidden;
-        .second-section-content{
+        .second-section-conteneur{
+            position: relative;
             display: flex;
-            flex-direction: column;
-            gap: 40px;
-            width: 70%;
-            p{
-                width: 66%;
+            .second-section-content{
+                position: relative;
+                z-index: 2;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                width: 70%;
+                p{
+                    width: 66%;
+                }
+                button{
+                    width: 36%;
+                }
             }
-            button{
-                width: 31%;
+            img{
+                position: absolute;
+                top: -40%;
+                right: -30%;
+                z-index: 1;
+                height: 200%;
             }
-        }
-        img{
-            position: absolute;
-            height: 100%;
-            display: none;
         }
     }
     .third-section{
+        position: relative;
+        z-index: 3;
         background-image: url(../img/ismael-trevino-NDyuR4Huig8-unsplash.png);
         background-size: cover;
         padding: 84px 154px;
@@ -197,13 +207,12 @@ main{
                     content: "La plus vendue !";
                     position: absolute;
                     top: -22px;
-                    right: -70.5px;
+                    right: -1px;
                     padding-inline: 13px;
                     padding-block-start: 2px;
                     padding-block-end: 5px;
                     background-color: $green-color;
                     color: $white-color;
-                    transform: translate(-50%, 0);
                     font-size: 12px;
                     font-weight: $font-regular;
                     letter-spacing: 1.04px;
