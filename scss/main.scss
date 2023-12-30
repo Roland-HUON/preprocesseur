@@ -479,6 +479,13 @@ footer{
         align-items: center;
         grid-template-columns: repeat(4, 1fr);
         padding: 66px 39px;
+        @media screen and (max-width:800px) {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+        }
+        @media screen and (max-width:500px) {
+            grid-template-columns: 1fr;
+        }
         img{
             width: 96%;
             height: auto;
@@ -492,6 +499,7 @@ footer{
             flex-direction: column;
             gap: 27px;
             h3{
+                text-align: center;
                 color: $white-color;
                 font-size: 27px;
                 font-weight: $font-semi-bold;
