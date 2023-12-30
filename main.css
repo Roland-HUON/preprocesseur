@@ -240,8 +240,8 @@ main .last-section {
 main .last-section .last-section-img {
   position: relative;
   background-image: url(../img/anh-nguyen-_Uqj5BQb-mw-unsplash.png);
-  width: 524px;
-  height: 524.5px;
+  width: 43.9%;
+  height: 32.75em;
   background-size: cover;
   background-position: center;
   display: flex;
