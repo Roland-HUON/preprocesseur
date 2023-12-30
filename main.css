@@ -135,7 +135,7 @@ main .second-section {
   padding-inline-start: 148px;
   padding-block: 159px;
   background-image: url(../img/61842.png);
-  background-size: contain;
+  background-size: auto;
   display: flex;
   overflow-x: hidden;
 }
@@ -188,11 +188,95 @@ main .third-section .third-section-content p strong {
 }
 main .fourth-section {
   background-image: url(../img/pattern.png);
-  background-size: contain;
+  background-size: auto;
   padding-block: 61px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 87px;
+}
+main .fourth-section .fourth-section-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+main .fourth-section .fourth-section-intro p {
+  text-align: center;
+}
+main .fourth-section .fourth-section-content {
+  padding-inline: 148px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 59px;
+}
+main .fourth-section .fourth-section-content .fourth-section-content-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+main .fourth-section .fourth-section-content .fourth-section-content-menu .fourth-section-content-menu-single {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+main .fourth-section .fourth-section-content .fourth-section-content-menu .fourth-section-content-menu-single .title {
+  display: flex;
+  justify-content: space-between;
+}
+main .fourth-section .fourth-section-content .fourth-section-content-menu .fourth-section-content-menu-single .title h3 {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1.04px;
+  line-height: 30px;
+}
+main .fourth-section .fourth-section-content .fourth-section-content-menu .fourth-section-content-menu-single:nth-child(3) {
+  position: relative;
+  padding: 11px;
+  width: 105%;
+  border: 1px solid #B2D234;
+}
+main .fourth-section .fourth-section-content .fourth-section-content-menu .fourth-section-content-menu-single:nth-child(3)::before {
+  content: "La plus vendue !";
+  position: absolute;
+  top: -22px;
+  right: -70.5px;
+  padding-inline: 13px;
+  padding-block-start: 2px;
+  padding-block-end: 5px;
+  background-color: #B2D234;
+  color: #FFFFFF;
+  transform: translate(-50%, 0);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1.04px;
+  line-height: 15px;
+}
+main .fourth-section .fourth-section-content .fourth-section-content-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 89px;
+}
+main .fourth-section .fourth-section-content .fourth-section-content-text .fourth-section-content-text-title {
+  width: 100%;
+}
+main .fourth-section .fourth-section-content .fourth-section-content-text .fourth-section-content-text-title h2 {
+  transform: rotate(-9deg);
+  font-size: 64px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0;
+  line-height: 95px;
+}
+main .fourth-section .fourth-section-content .fourth-section-content-text .fourth-section-content-text-title h2:last-child {
+  color: #60A0D8;
+}
+main .fourth-section .fourth-section-content .fourth-section-content-text p {
+  text-align: end;
 }
 main .fifth-section {
   background-image: url(../img/louis-hansel-MlPD-AzZYMg-unsplash.png);
@@ -231,7 +315,7 @@ main .fifth-section .blue {
 }
 main .last-section {
   background-image: url(../img/61842.png);
-  background-size: contain;
+  background-size: auto;
   padding: 83px 40px;
   display: flex;
   align-items: center;

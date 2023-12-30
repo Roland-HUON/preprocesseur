@@ -92,7 +92,7 @@ main{
         padding-inline-start: 148px;
         padding-block: 159px;
         background-image: url(../img/61842.png);
-        background-size: contain;
+        background-size: auto;
         display: flex;
         overflow-x: hidden;
         .second-section-content{
@@ -145,11 +145,95 @@ main{
     }
     .fourth-section{
         background-image: url(../img/pattern.png);
-        background-size: contain;
+        background-size: auto;
         padding-block: 61px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 87px;
+        .fourth-section-intro{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            p{
+                text-align: center;
+            }
+        }
+        .fourth-section-content{
+            padding-inline: 148px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            gap: 59px;
+            .fourth-section-content-menu{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 50px;
+                .fourth-section-content-menu-single{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+                    .title{
+                        display: flex;
+                        justify-content: space-between;
+                        h3{
+                            font-size: 24px;
+                            font-weight: $font-medium;
+                            letter-spacing: 1.04px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+                .fourth-section-content-menu-single:nth-child(3){
+                    position: relative;
+                    padding: 11px;
+                    width: 105%;
+                    border: 1px solid $green-color;
+                }
+                .fourth-section-content-menu-single:nth-child(3)::before{
+                    content: "La plus vendue !";
+                    position: absolute;
+                    top: -22px;
+                    right: -70.5px;
+                    padding-inline: 13px;
+                    padding-block-start: 2px;
+                    padding-block-end: 5px;
+                    background-color: $green-color;
+                    color: $white-color;
+                    transform: translate(-50%, 0);
+                    font-size: 12px;
+                    font-weight: $font-regular;
+                    letter-spacing: 1.04px;
+                    line-height: 15px;
+                }
+            }
+            .fourth-section-content-text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 89px;
+                .fourth-section-content-text-title{
+                    width: 100%;
+                    h2{
+                        transform: rotate(-9deg);
+                        font-size: 64px;
+                        font-weight: $font-regular;
+                        font-style: $font-italic;
+                        letter-spacing: 0;
+                        line-height: 95px;
+                    }
+                    h2:last-child{
+                        color: #60A0D8;
+                    }
+                }
+                p{
+                    text-align: end;
+                }
+            }
+        }
     }
     .fifth-section{
         background-image: url(../img/louis-hansel-MlPD-AzZYMg-unsplash.png) ;
@@ -188,7 +272,7 @@ main{
     }
     .last-section{
         background-image: url(../img/61842.png);
-        background-size: contain;
+        background-size: auto;
         padding: 83px 40px;
         display: flex;
         align-items: center;
@@ -228,8 +312,6 @@ main{
             display: flex;
             flex-direction: column;
             gap: 18px;
-            h2{}
-            p{}
             form{
                 width: 100%;
                 display: flex;
