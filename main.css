@@ -481,6 +481,11 @@ main .last-section {
   align-items: center;
   gap: 64px;
 }
+@media screen and (max-width: 800px) {
+  main .last-section {
+    flex-direction: column-reverse;
+  }
+}
 main .last-section .last-section-img {
   position: relative;
   background-image: url(../img/anh-nguyen-_Uqj5BQb-mw-unsplash.png);
@@ -491,6 +496,12 @@ main .last-section .last-section-img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media screen and (max-width: 800px) {
+  main .last-section .last-section-img {
+    width: 60%;
+    height: 25em;
+  }
 }
 main .last-section .last-section-img::after {
   content: "";
