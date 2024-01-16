@@ -124,7 +124,7 @@ main .head-section {
 main .head-section .head-section-img {
   width: 100%;
   height: 100%;
-  background-image: url(../img/Header\ back.png);
+  background-image: url(./img/Header\ back.png);
   background-size: cover;
 }
 main .head-section .head-section-img .head-section-overlay {
@@ -217,7 +217,7 @@ main .head-section .head-section-img .head-section-overlay .head-section-content
 main .second-section {
   padding-inline-start: 148px;
   padding-block: 159px;
-  background-image: url(../img/61842.png);
+  background-image: url(./img/61842.png);
   background-size: auto;
   display: flex;
   overflow-x: hidden;
@@ -297,7 +297,7 @@ main .second-section .second-section-conteneur img {
 main .third-section {
   position: relative;
   z-index: 3;
-  background-image: url(../img/ismael-trevino-NDyuR4Huig8-unsplash.png);
+  background-image: url(./img/ismael-trevino-NDyuR4Huig8-unsplash.png);
   background-size: cover;
   padding: 84px 154px;
   display: flex;
@@ -338,7 +338,7 @@ main .third-section .third-section-content p strong {
   font-weight: 600;
 }
 main .fourth-section {
-  background-image: url(../img/pattern.png);
+  background-image: url(./img/pattern.png);
   background-size: auto;
   padding-block: 61px;
   display: flex;
@@ -440,7 +440,7 @@ main .fourth-section .fourth-section-content .fourth-section-content-text p {
   text-align: end;
 }
 main .fifth-section {
-  background-image: url(../img/louis-hansel-MlPD-AzZYMg-unsplash.png);
+  background-image: url(./img/louis-hansel-MlPD-AzZYMg-unsplash.png);
   background-size: cover;
   background-position-x: 45%;
   padding: 138px 40px;
@@ -486,7 +486,7 @@ main .fifth-section .blue {
   background-color: rgba(96, 160, 216, 0.85);
 }
 main .last-section {
-  background-image: url(../img/61842.png);
+  background-image: url(./img/61842.png);
   background-size: auto;
   padding: 83px 40px;
   display: flex;
@@ -500,7 +500,7 @@ main .last-section {
 }
 main .last-section .last-section-img {
   position: relative;
-  background-image: url(../img/anh-nguyen-_Uqj5BQb-mw-unsplash.png);
+  background-image: url(./img/anh-nguyen-_Uqj5BQb-mw-unsplash.png);
   width: 43.9%;
   height: 32.75em;
   background-size: cover;
