@@ -5,7 +5,7 @@
 }
 
 header {
-  background-image: url("../img/Header back.png");
+  background-image: url("./img/Header back.png");
   background-size: cover;
   width: 1920px;
   height: 1080px;
@@ -83,7 +83,7 @@ main {
   z-index: -1;
 }
 main .welcome {
-  background-image: url("../img/61842.png");
+  background-image: url("./img/61842.png");
   width: 1920px;
   height: 752px;
 }
@@ -142,13 +142,13 @@ main .accroche .accroche-conteneur-haut .accroche-conteneur-bas {
   height: 642px;
 }
 main .menu {
-  background-image: url(../img/pattern.png);
+  background-image: url(./img/pattern.png);
 }
 main .preparation {
-  background-image: url(../img/louis-hansel-MlPD-AzZYMg-unsplash.png);
+  background-image: url(./img/louis-hansel-MlPD-AzZYMg-unsplash.png);
 }
 main .form {
-  background-image: url(../img/61842.png);
+  background-image: url(./img/61842.png);
 }
 
 footer {
